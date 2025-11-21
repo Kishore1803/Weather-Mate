@@ -25,7 +25,7 @@ return (
       <div className="card text-center shadow p-3 mb-5 bg-body rounded">
         <div className="card-body">
           <h3 className="card-title">New York, USA</h3>
-          <p className="display-1 fw-bold">25°C</p>
+          <p className="display-1 fs-3">25°C</p>
           <p className="card-text">Sunny</p>
           <div className="d-flex justify-content-around mt-4">
             <div>
