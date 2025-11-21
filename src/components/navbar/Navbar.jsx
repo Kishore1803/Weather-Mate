@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark d-flex justify-content-between gap-5 fixed-top z-3">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark d-flex justify-content-between gap-5 fixed-top z-5">
       <div className="container">
         <a className="navbar-brand fs-2 pt-auto pb-auto" href="#">Weather Mate</a>
 
