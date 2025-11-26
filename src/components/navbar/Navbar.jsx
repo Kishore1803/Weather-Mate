@@ -2,27 +2,11 @@ import React from "react";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark d-flex justify-content-between gap-5 fixed-top z-5">
+    <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
       <div className="container">
-        <a className="navbar-brand fs-2 pt-auto pb-auto" href="#">Weather Mate</a>
-
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-
-        <div className="collapse navbar-collapse fs-4" id="navbarNav">
-          <ul className="navbar-nav ms-auto">
-            <li className="nav-item"><a className="nav-link active" href="#">Home</a></li>
-            <li className="nav-item"><a className="nav-link active" href="#">About</a></li>
-            <li className="nav-item"><a className="nav-link active" href="#">Contact</a></li>
-            <li className="nav-item"><a className="nav-link active" href="#">Login</a></li>
-          </ul>
-        </div>
+        <a className="navbar-brand fs-3 fw-bold" href="#">
+          WeatherMate
+        </a>
       </div>
     </nav>
   );
